@@ -1,0 +1,78 @@
+\begin{thebibliography}{10}
+
+\bibitem{hadoop}
+Hadoop.
+\newblock http://hadoop.apache.org/.
+
+\bibitem{hash-outputs}
+Michael Buddingh.
+\newblock The distribution of hash function outputs.
+\newblock \url{http://michiel.buddingh.eu/distribution-of-hash-values}.
+
+\bibitem{bittorrent}
+Bram Cohen.
+\newblock Incentives build robustness in bittorrent.
+\newblock In {\em Workshop on Economics of Peer-to-Peer systems}, volume~6,
+  pages 68--72, 2003.
+
+\bibitem{sybil}
+John~R Douceur.
+\newblock The sybil attack.
+\newblock In {\em Peer-to-peer Systems}, pages 251--260. Springer, 2002.
+
+\bibitem{sha1}
+Donald Eastlake and Paul Jones.
+\newblock Us secure hash algorithm 1 (sha1), 2001.
+
+\bibitem{mainline}
+Andrew Loewenstern and Arvid Norberg.
+\newblock {BEP} 5: {DHT} {P}rotocol.
+\newblock \url{http://www.bittorrent.org/beps/bep_0005.html}, March 2013.
+
+\bibitem{marozzo2012p2p}
+Fabrizio Marozzo, Domenico Talia, and Paolo Trunfio.
+\newblock P2{P}-{M}ap{R}educe: {P}arallel {D}ata {P}rocessing in {D}ynamic
+  {C}loud {E}nvironments.
+\newblock {\em Journal of Computer and System Sciences}, 78(5):1382--1402,
+  2012.
+
+\bibitem{kademlia}
+Petar Maymounkov and David Mazieres.
+\newblock Kademlia: A peer-to-peer information system based on the xor metric.
+\newblock In {\em Peer-to-Peer Systems}, pages 53--65. Springer, 2002.
+
+\bibitem{simulation-data}
+Andrew Rosen.
+\newblock Autonomous load-balancing raw data.
+\newblock https://github.com/abrosen/thesis/tree/master/data/done.
+
+\bibitem{chordreduce}
+Andrew Rosen, Brendan Benshoof, Robert~W Harrison, and Anu~G. Bourgeois.
+\newblock Mapreduce on a chord distributed hash table.
+\newblock In {\em 2nd International IBM Cloud Academy Conference}.
+
+\bibitem{sybil-analysis}
+Andrew Rosen, Brendan Benshoof, Robert~W Harrison, and Anu~G. Bourgeois.
+\newblock The sybil attack on peer-to-peer networks from the attacker's
+  perspective.
+
+\bibitem{urdht}
+Andrew Rosen, Brendan Benshoof, Robert~W Harrison, and Anu~G. Bourgeois.
+\newblock Urdht.
+\newblock \url{https://github.com/UrDHT/}.
+
+\bibitem{chord}
+Ion Stoica, Robert Morris, David Karger, M.~Frans Kaashoek, and Hari
+  Balakrishnan.
+\newblock Chord: {A} {S}calable {P}eer-to-{P}eer {L}ookup {S}ervice for
+  {I}nternet {A}pplications.
+\newblock {\em SIGCOMM Comput. Commun. Rev.}, 31:149--160, August 2001.
+
+\bibitem{thomsen2005cryptographic}
+S{\o}ren~Steffen Thomsen and Lars~Ramkilde Knudsen.
+\newblock {\em Cryptographic hash functions}.
+\newblock PhD thesis, Technical University of DenmarkDanmarks Tekniske
+  Universitet, Department of Applied Mathematics and Computer ScienceInstitut
+  for Matematik og Computer Science, 2005.
+
+\end{thebibliography}
