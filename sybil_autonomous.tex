@@ -17,7 +17,7 @@
 
 %TODO:
 % Abstract, motivation, Introduction, merge with IEEE paper, add other authors
-%
+% brief background on early sybil attacks
 
 %\doublespacing
 
@@ -435,7 +435,7 @@ This means the network had the defaults for variable.
 	The magnitude of churn's effect varies based on the size of the network and the number of tasks.
 	In networks where there are fewer nodes, we see the base runtime factor is smaller.
 	The gains from churn are most strongly related the number of tasks the network has, with the more tasks there are, the greater the gains of churn.
-	A network 100 nodes and 1 million tasks, on average, has a runtime factor only 30\% higher than ideal when churn is 0.01 per tick.
+	A network with 100 nodes and 1 million tasks, on average, has a runtime factor only 30\% higher than ideal when churn is 0.01 per tick.
 	The runtime for heterogeneous versus homogeneous networks had no significant differences.
 	
 	
@@ -456,8 +456,8 @@ This means the network had the defaults for variable.
 	
 	We note the significantly diminishing returns that occur after a churn rate of 0.01.
 	One facet not captured by our simulations, but is significant, is the rising maintenance costs after that point.
-	The makes any amount of churn after a certain point prohibitively expensive.
-	What this point is requires implementation on a real network.
+	This makes any amount of churn after a certain point prohibitively expensive.
+	Determination of  this point is requires implementation on a real network.
 	
 	This speedup is reflected in the average number of tasks consumed in a tick, shown in Figure \ref{fig:churnVsWork}.
 	In a stable network with no churn, we would expect a good portion of the network to end up with little work, which is quickly consumed.
@@ -516,13 +516,13 @@ This means the network had the defaults for variable.
 	
 	The goal behind the churn strategy was to effectively have nodes join in the proper place with random insertions.
 	However, churn relies on two factors that are completely random.
-	The network nor it's members have any control over when node joins happen or where these joins occur.
+	The network nor its members have any control over when node joins happen or where these joins occur.
 	In addition, churn removes nodes, which can be detrimental to the network.
 	
-	The random injection strategy removes some of the randomization that the churn churn strategy deals with, namely \textit{when} new nodes join, albeit not where.
+	The random injection strategy removes some of the randomization that the churn strategy deals with, namely \textit{when} new nodes join, albeit not where.
 	As we discussed earlier, random injection does this by means of the Sybil Attack \cite{sybil}, with nodes creating virtual Sybil nodes when they are underutilized.
 	
-	We found that the strategy of having under-utilized nodes randomly create Sybil nodes works phenomenally well, approaching very close to the ideal time.
+	We found that the strategy of having under-utilized nodes randomly creating Sybil nodes works phenomenally well, approaching very close to the ideal time.
 	Figures \ref{fig:randomStableHist5} and \ref{fig:churnStableHist35} compare two networks with identical starting configurations as the network preforms the computations.\footnote{We omit a figure comparing the two networks at tick 0, since it identical to Figure \ref{fig:churnStableHist0}.}
 	These networks have 1000 nodes and 100,000 tasks.  
 	The network using random injection fared significantly better than those using no strategy.
@@ -550,7 +550,7 @@ This means the network had the defaults for variable.
 	
 	We can see these effects become even more pronounced at tick 35 (Figure \ref{fig:randomStableHist35}), where seven load balancing operations have taken place.
 	The network using random injection has many fewer nodes with little or no work and many more nodes with some work.
-	Furthermore, we see a huge difference between the effectiveness of random injection versus churn (Figure \ref{fig:churnInjectionHist35}).
+	Furthermore, we see significant difference between the effectiveness of random injection versus churn (Figure \ref{fig:churnInjectionHist35}).
 	
 	\begin{figure}
 		\centering
@@ -562,7 +562,7 @@ This means the network had the defaults for variable.
 	We found that a homogeneous, 1000 node/100,000 task network, where each node consumed a single task each tick would never have an average runtime factor greater than 1.7 and the average runtime was as fast as 1.36.
 	In the same network with 1,000,000 tasks, these runtimes were 1.25 and 1.12 respectively.
 	On average, the 1,000,000 task network had a runtime factor 0.82 less than the 100,000 task network.
-	This huge jump is the result of how the network is impacted by heterogeneous nodes, explained further below.
+	This large jump is the result of how the network is impacted by heterogeneous nodes, explained further below.
 	
 	Overall we found that networks with the same ratio of tasks to nodes would have relatively the same runtimes, but the smaller network would run slightly faster.
 	For example, we compared two networks with 100 tasks per a node: a network with 100 nodes and 100,000 tasks and one with 1,000 nodes and 1,000,000 tasks.
@@ -611,12 +611,12 @@ This means the network had the defaults for variable.
 	The neighbor injection strategy was also effective at reducing the overall runtime factor, albeit not as greatly as the random injection strategy.
 	Figures \ref{fig:neighborsStableHist5} and \ref{fig:neighborsStableHist35} show the workload distribution of the neighbor injection strategy in a 1000 node/100,000 task network.
 	At the first glance, neighbor injection does not seem to be doing worse than no strategy; there are more nodes with less work than no strategy.
-	However, if we look at the whole histogram, we see there are less nodes that have a huge amount of work and noticeably more nodes with a small number of tasks.
-	In fact, at tick 35, we see that the network with no strategy has a node with approximately 650 tasks, while the most the network using the neighbors strategy has is 450 tasks.
+	However, if we look at the whole histogram, we see there are less nodes that have a large amount of work and noticeably more nodes with a small number of tasks.
+	In fact, at tick 35, we see that the network with no strategy has a node with approximately 650 tasks, while the most that the network using the neighbors strategy has is 450 tasks.
 	
 	This is because the network is finishing off the tasks with small amounts of work quicker.
 	However, nodes are not able to acquire work outside their immediate vicinity and must idle.
-	In addition, nodes always inject Sybils into the largest gap between their successors that they see, but if they acquire no work.
+	In addition, nodes always inject Sybils into the largest gap between their successors that they see, but may not acquire any work.
 	That means in the simulation, it is possible for nodes to get into a loop of constantly checking the largest gap and miss other neighbors that do have work to acquire.\footnote{We suggest how to avoid this in a real implementation in Section \ref{sec:strat-neighbor}}
 	
 	The base runtime factor of the neighbor strategy in a 1000 node/100,000 task homogeneous network was 5.033, which is 2.4 lower than no strategy.
@@ -670,7 +670,7 @@ This means the network had the defaults for variable.
 	
 	
 	
-	The strategy of probing each of the neighbors before inserting, rather than estimating, improved the runtime factor by 1.2  on average in when we compare each strategies mean homogeneous and heterogeneous runtimes.
+	The strategy of probing each of the neighbors before inserting, rather than estimating, improved the runtime factor by 1.2  on average when we compare each strategy's mean homogeneous and heterogeneous runtimes.
 	However, the estimation based neighbor injection requires fewer messages in an actual implementation.
 	Overall, either neighbor injection strategy did not perform as well as the random injection strategy, but generates much less churn from joining nodes, since nodes can create their Sybils in a greatly reduced range.
 	
@@ -678,13 +678,15 @@ This means the network had the defaults for variable.
 	Our final strategy is invitation based injection.
 	What differentiates invitation based injection from the neighbor injection or random injection strategy is that the latter two are proactive strategies, while the former is reactive.
 	
-	The proactive strategies work by having nodes with low work loads seek out acquire work from other nodes.
+	The proactive strategies work by having nodes with low work loads seek out work from other nodes.
 	This is good because less nodes become idle.
 	However, nodes acquire work from other workers, even if that other worker needed no help.
 	In addition, nodes can spend many cycles trying to acquire work that may or may not exist, which significantly 
-	
+	%%%%%%%
+	%finish this sent
+	%%%%%
 	Invitation, however, is reactive.
-	Nodes react to having too much work and ask the predecessors (the same nodes who would be injecting Sybils in the neighbor injection strategy) with the lest work to come and help.
+	Nodes react to having too much work and ask the predecessors (the same nodes who would be injecting Sybils in the neighbor injection strategy) with the least work to come and help.
 	This means queries of other nodes and Sybil injections only occur when they need to, greatly reducing the maintenance costs in an actual implementation.
 	
 	
@@ -726,19 +728,19 @@ This means the network had the defaults for variable.
 	
 	The impact of the invitation strategy on the runtime factor was closely tied to the number of nodes in the network.
 	For example, in a 100 node/ 100,000 task network (1000 tasks per node), the base average runtime factor was 3.749.
-	However, a 1000 node/ 100,000 task  network had a base average runtime of 5.673.
+	However, a 1000 node/ 100,000 task network had a base average runtime of 5.673.
 	
 	Other variables and the ratio of tasks to nodes appeared to have no effect on the runtime factor.\footnote{Churn was not tested on the invitation strategy, but we suspect it has the same effect as in the neighbor strategy.}
-	The single exception was when the network was heterogeneous and each node could complete a number of tasks equal to it's strength.
+	The single exception was when the network was heterogeneous and each node could complete a number of tasks equal to its strength.
 	Like the neighbor injection strategy, networks under these conditions faired much worse, with our 1000 node/ 100000 tasks networks base average runtime factor being 6.097.
 	
 	The invitation strategy load balances better than smart neighbors and uses less bandwidth than it and neighbor injection, since this strategy is reactive, rather than proactive, like random injection or neighbor injection.
 	
-	\section{Remarks and Future Work}
+	\section{Conclusions and Future Work}
 	Our simulation results are notable for a number reasons.
 	First, as we have previously mentioned, is the confirmation that churn can have a net positive effect on the runtime of the network.
 	Second, we presented strategies based on the Sybil attack that performed significantly better than churn and would have a much less disruptive impact on the network's structure.
-	We found that our random injection strategy performed exceptionally well, approaching as closer to ideal times as we could hope.
+	We found that our random injection strategy performed exceptionally well, approaching as close to ideal times as we could hope.
 	
 	
 	The fact that these strategies can be used as new nodes join the network can not be understated.
