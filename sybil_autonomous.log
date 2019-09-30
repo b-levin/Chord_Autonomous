@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.18)  27 SEP 2019 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.18)  30 SEP 2019 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -416,22 +416,30 @@ File: figs/workloadDistribution.png Graphic file (type png)
 Package pdftex.def Info: figs/workloadDistribution.png  used on input line 158.
 
 (pdftex.def)             Requested size: 251.9989pt x 189.92557pt.
-<figs/exampleChordDistribution.png, id=125, 578.16pt x 431.4519pt>
-File: figs/exampleChordDistribution.png Graphic file (type png)
-<use figs/exampleChordDistribution.png>
-Package pdftex.def Info: figs/exampleChordDistribution.png  used on input line 
-173.
-(pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
- [4 <./figs/workloadDistribution.png>]
-<figs/exampleChordEvenDistribution.png, id=142, 586.8324pt x 442.2924pt>
-File: figs/exampleChordEvenDistribution.png Graphic file (type png)
-<use figs/exampleChordEvenDistribution.png>
-Package pdftex.def Info: figs/exampleChordEvenDistribution.png  used on input l
-ine 187.
-(pdftex.def)             Requested size: 251.9989pt x 189.92557pt.
 
-[5 <./figs/exampleChordDistribution.png>] [6 <./figs/exampleChordEvenDistributi
-on.png>]
+
+LaTeX Warning: Reference `fig:exampleChordDistribution' on page 4 undefined on 
+input line 164.
+
+<figs/exampleChordUnevenRedone.png, id=124, 462.528pt x 346.896pt>
+File: figs/exampleChordUnevenRedone.png Graphic file (type png)
+<use figs/exampleChordUnevenRedone.png>
+Package pdftex.def Info: figs/exampleChordUnevenRedone.png  used on input line 
+173.
+(pdftex.def)             Requested size: 251.9989pt x 188.99898pt.
+
+LaTeX Warning: Reference `fig:exampleChordEvenDistribution' on page 4 undefined
+ on input line 178.
+
+[4 <./figs/workloadDistribution.png>]
+<figs/exampleChordEvenRedone.png, id=139, 462.528pt x 346.896pt>
+File: figs/exampleChordEvenRedone.png Graphic file (type png)
+<use figs/exampleChordEvenRedone.png>
+Package pdftex.def Info: figs/exampleChordEvenRedone.png  used on input line 18
+7.
+(pdftex.def)             Requested size: 251.9989pt x 188.99898pt.
+ [5 <./figs/exampleChordUnevenRedone.png>] [6 <./figs/exampleChordEvenRedone.pn
+g>]
 Overfull \hbox (4.33084pt too wide) in paragraph at lines 268--271
 []\OT1/cmr/m/n/10.95 We use sev-eral dif-fer-ent strate-gies: churn, ran-dom in
 -jec-tion, neigh-
@@ -524,47 +532,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--424
  []
 
 [12]
-<figs/churnVsTime.png, id=214, 586.8324pt x 442.2924pt>
+<figs/churnVsTime.png, id=212, 586.8324pt x 442.2924pt>
 File: figs/churnVsTime.png Graphic file (type png)
 <use figs/churnVsTime.png>
 Package pdftex.def Info: figs/churnVsTime.png  used on input line 449.
 (pdftex.def)             Requested size: 251.9989pt x 189.92557pt.
  [13 <./figs/churnVsTime.png>]
-<figs/churnVsWork.png, id=224, 578.16pt x 431.4519pt>
+<figs/churnVsWork.png, id=222, 578.16pt x 431.4519pt>
 File: figs/churnVsWork.png Graphic file (type png)
 <use figs/churnVsWork.png>
 Package pdftex.def Info: figs/churnVsWork.png  used on input line 470.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
-<figs/ChurnStableHist0.png, id=232, 578.16pt x 431.4519pt>
+<figs/ChurnStableHist0.png, id=230, 578.16pt x 431.4519pt>
 File: figs/ChurnStableHist0.png Graphic file (type png)
 <use figs/ChurnStableHist0.png>
 Package pdftex.def Info: figs/ChurnStableHist0.png  used on input line 491.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
-<figs/ChurnStableHist5.png, id=235, 578.16pt x 431.4519pt>
+<figs/ChurnStableHist5.png, id=233, 578.16pt x 431.4519pt>
 File: figs/ChurnStableHist5.png Graphic file (type png)
 <use figs/ChurnStableHist5.png>
 Package pdftex.def Info: figs/ChurnStableHist5.png  used on input line 500.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
-<figs/ChurnStableHist35.png, id=236, 578.16pt x 431.4519pt>
+<figs/ChurnStableHist35.png, id=234, 578.16pt x 431.4519pt>
 File: figs/ChurnStableHist35.png Graphic file (type png)
 <use figs/ChurnStableHist35.png>
 Package pdftex.def Info: figs/ChurnStableHist35.png  used on input line 510.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
  [14 <./figs/churnVsWork.png>] [15 <./figs/ChurnStableHist0.png> <./figs/ChurnS
 tableHist5.png>]
-<figs/randomStableHist5.png, id=257, 578.16pt x 431.4519pt>
+<figs/randomStableHist5.png, id=255, 578.16pt x 431.4519pt>
 File: figs/randomStableHist5.png Graphic file (type png)
 <use figs/randomStableHist5.png>
 Package pdftex.def Info: figs/randomStableHist5.png  used on input line 533.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
-<figs/randomStableHist35.png, id=258, 578.16pt x 431.4519pt>
+<figs/randomStableHist35.png, id=256, 578.16pt x 431.4519pt>
 File: figs/randomStableHist35.png Graphic file (type png)
 <use figs/randomStableHist35.png>
 Package pdftex.def Info: figs/randomStableHist35.png  used on input line 541.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
  [16 <./figs/ChurnStableHist35.png>] [17 <./figs/randomStableHist5.png> <./figs
 /randomStableHist35.png>]
-<figs/churnInjectionHist35.png, id=277, 578.16pt x 431.4519pt>
+<figs/churnInjectionHist35.png, id=275, 578.16pt x 431.4519pt>
 File: figs/churnInjectionHist35.png Graphic file (type png)
 <use figs/churnInjectionHist35.png>
 Package pdftex.def Info: figs/churnInjectionHist35.png  used on input line 557.
@@ -572,7 +580,7 @@ Package pdftex.def Info: figs/churnInjectionHist35.png  used on input line 557.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
 
 [18 <./figs/churnInjectionHist35.png>]
-<figs/randomStableHistHetero35.png, id=285, 578.16pt x 431.4519pt>
+<figs/randomStableHistHetero35.png, id=283, 578.16pt x 431.4519pt>
 File: figs/randomStableHistHetero35.png Graphic file (type png)
 <use figs/randomStableHistHetero35.png>
 Package pdftex.def Info: figs/randomStableHistHetero35.png  used on input line 
@@ -585,26 +593,26 @@ Overfull \hbox (5.96266pt too wide) in paragraph at lines 591--594
  []
 
 [19 <./figs/randomStableHistHetero35.png>] [20]
-<figs/neighborsStableHist5.png, id=304, 578.16pt x 431.4519pt>
+<figs/neighborsStableHist5.png, id=302, 578.16pt x 431.4519pt>
 File: figs/neighborsStableHist5.png Graphic file (type png)
 <use figs/neighborsStableHist5.png>
 Package pdftex.def Info: figs/neighborsStableHist5.png  used on input line 635.
 
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
-<figs/neighborsStableHist35.png, id=305, 578.16pt x 431.4519pt>
+<figs/neighborsStableHist35.png, id=303, 578.16pt x 431.4519pt>
 File: figs/neighborsStableHist35.png Graphic file (type png)
 <use figs/neighborsStableHist35.png>
 Package pdftex.def Info: figs/neighborsStableHist35.png  used on input line 643
 .
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
  [21 <./figs/neighborsStableHist5.png>]
-<figs/neighborsStableSmartHist5.png, id=316, 578.16pt x 431.4519pt>
+<figs/neighborsStableSmartHist5.png, id=314, 578.16pt x 431.4519pt>
 File: figs/neighborsStableSmartHist5.png Graphic file (type png)
 <use figs/neighborsStableSmartHist5.png>
 Package pdftex.def Info: figs/neighborsStableSmartHist5.png  used on input line
  658.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
-<figs/neighborsStableSmartHist35.png, id=319, 578.16pt x 431.4519pt>
+<figs/neighborsStableSmartHist35.png, id=317, 578.16pt x 431.4519pt>
 File: figs/neighborsStableSmartHist35.png Graphic file (type png)
 <use figs/neighborsStableSmartHist35.png>
 Package pdftex.def Info: figs/neighborsStableSmartHist35.png  used on input lin
@@ -612,23 +620,23 @@ e 666.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
  [22 <./figs/neighborsStableHist35.png>] [23 <./figs/neighborsStableSmartHist5.
 png> <./figs/neighborsStableSmartHist35.png>]
-<figs/inviteStableHist5.png, id=337, 578.16pt x 431.4519pt>
+<figs/inviteStableHist5.png, id=335, 578.16pt x 431.4519pt>
 File: figs/inviteStableHist5.png Graphic file (type png)
 <use figs/inviteStableHist5.png>
 Package pdftex.def Info: figs/inviteStableHist5.png  used on input line 698.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
-<figs/inviteStableHist35.png, id=338, 578.16pt x 431.4519pt>
+<figs/inviteStableHist35.png, id=336, 578.16pt x 431.4519pt>
 File: figs/inviteStableHist35.png Graphic file (type png)
 <use figs/inviteStableHist35.png>
 Package pdftex.def Info: figs/inviteStableHist35.png  used on input line 705.
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
-<figs/inviteNeighborsHist5.png, id=339, 578.16pt x 431.4519pt>
+<figs/inviteNeighborsHist5.png, id=337, 578.16pt x 431.4519pt>
 File: figs/inviteNeighborsHist5.png Graphic file (type png)
 <use figs/inviteNeighborsHist5.png>
 Package pdftex.def Info: figs/inviteNeighborsHist5.png  used on input line 714.
 
 (pdftex.def)             Requested size: 251.9989pt x 188.04874pt.
-<figs/inviteNeighborsHist35.png, id=340, 578.16pt x 431.4519pt>
+<figs/inviteNeighborsHist35.png, id=338, 578.16pt x 431.4519pt>
 File: figs/inviteNeighborsHist35.png Graphic file (type png)
 <use figs/inviteNeighborsHist35.png>
 Package pdftex.def Info: figs/inviteNeighborsHist35.png  used on input line 722
@@ -658,15 +666,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 763.
  (./sybil_autonomous.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 763.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 763.
+Package rerunfilecheck Info: File `sybil_autonomous.out' has not changed.
+(rerunfilecheck)             Checksum: 7014D8CD52428AB8CAE0BECB9A162928;1181.
 
-
-Package rerunfilecheck Warning: File `sybil_autonomous.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sybil_autonomous.out':
-(rerunfilecheck)             Before: 266F13BC364CAED9850C15EF7AA34A5C;1177
-(rerunfilecheck)             After:  7014D8CD52428AB8CAE0BECB9A162928;1181.
 
 LaTeX Warning: There were undefined references.
 
@@ -677,10 +679,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 763.
 ### simple group (level 1) entered at line 407 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8471 strings out of 492623
- 125828 string characters out of 6135669
+ 8473 strings out of 492623
+ 125856 string characters out of 6135669
  230466 words of memory out of 5000000
- 12163 multiletter control sequences out of 15000+600000
+ 12165 multiletter control sequences out of 15000+600000
  15277 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,11n,43p,460b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -699,10 +701,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 ></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on sybil_autonomous.pdf (28 pages, 750264 bytes).
+Output written on sybil_autonomous.pdf (28 pages, 754988 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
+ 458 PDF objects out of 1000 (max. 8388607)
+ 363 compressed objects within 4 object streams
  94 named destinations out of 1000 (max. 500000)
  245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

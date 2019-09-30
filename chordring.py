@@ -19,7 +19,7 @@ def drawGraphBalanced(numNodes):
         xs.append(x)
         ys.append(y)
     balancedSeed = 0.0
-    for _ in range(8):
+    for _ in range(10):
         x = math.cos(balancedSeed * math.pi)
         y = math.sin(balancedSeed * math.pi)
         fx.append(x)
@@ -48,7 +48,7 @@ def drawGraphUnbalanced(numNodes):
         xs.append(x)
         ys.append(y)
     balancedSeed = 0.0
-    for _ in range(8):
+    for _ in range(10):
         num = random.uniform(0.0, 0.25)
         while num in numList:
             num = random.uniform(0.0, 0.25)
