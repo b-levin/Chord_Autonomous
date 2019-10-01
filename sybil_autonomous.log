@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.30)  1 OCT 2019 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.30)  1 OCT 2019 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,20 +433,20 @@ File: babel.def 2018/11/13 3.27 Babel common definitions
 (./sybil_autonomous.aux)
 \openout1 = `sybil_autonomous.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 -- Lines per column: 50 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -483,7 +483,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -493,21 +493,21 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (./sybil_autonomous.out) (./sybil_autonomous.out)
 \@outlinefile=\write3
 \openout3 = `sybil_autonomous.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 100.
-LaTeX Font Info:    Try loading font information for U+msa on input line 100.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 101.
+LaTeX Font Info:    Try loading font information for U+msa on input line 101.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 100.
+LaTeX Font Info:    Try loading font information for U+msb on input line 101.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -515,254 +515,262 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-<figs/workloadDistribution.png, id=109, 586.8324pt x 442.2924pt>
+<figs/workloadDistribution.png, id=118, 586.8324pt x 442.2924pt>
 File: figs/workloadDistribution.png Graphic file (type png)
 <use figs/workloadDistribution.png>
-Package pdftex.def Info: figs/workloadDistribution.png  used on input line 174.
+Package pdftex.def Info: figs/workloadDistribution.png  used on input line 175.
 
 (pdftex.def)             Requested size: 361.19843pt x 272.24104pt.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 182.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 183.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<figs/exampleChordUnevenRedone.png, id=114, 462.528pt x 346.896pt>
+<figs/exampleChordUnevenRedone.png, id=123, 462.528pt x 346.896pt>
 File: figs/exampleChordUnevenRedone.png Graphic file (type png)
 <use figs/exampleChordUnevenRedone.png>
 Package pdftex.def Info: figs/exampleChordUnevenRedone.png  used on input line 
-189.
+190.
 (pdftex.def)             Requested size: 361.19843pt x 270.91125pt.
-<figs/exampleChordEvenRedone.png, id=117, 462.528pt x 346.896pt>
+ [2] [3 <./figs/workloadDistribution.png> <./figs/exampleChordUnevenRedone.png>
+]
+<figs/exampleChordEvenRedone.png, id=152, 462.528pt x 346.896pt>
 File: figs/exampleChordEvenRedone.png Graphic file (type png)
 <use figs/exampleChordEvenRedone.png>
 Package pdftex.def Info: figs/exampleChordEvenRedone.png  used on input line 20
-3.
+4.
 (pdftex.def)             Requested size: 361.19843pt x 270.91125pt.
- [2] [3 <./figs/workloadDistribution.png> <./figs/exampleChordUnevenRedone.png>
-] [4 <./figs/exampleChordEvenRedone.png>] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 367--372
+ [4] [5 <./figs/exampleChordEvenRedone.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 368--373
 []\OT1/ptm/m/n/11 A node com-pares its work-load to the
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 367--372
+Underfull \hbox (badness 6284) in paragraph at lines 368--373
 \OT1/pcr/m/n/11 sybilThreshold \OT1/ptm/m/n/11 and de-cides whether or not
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []|\OT1/ptm/m/n/10 Churn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []|$\OT1/cmr/m/n/10 10[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/ptm/m/n/10 nodes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/cmr/m/n/10 10[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []|$\OT1/cmr/m/n/10 10[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/ptm/m/n/10 nodes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/cmr/m/n/10 10[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []|$\OT1/cmr/m/n/10 100$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/ptm/m/n/10 nodes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/cmr/m/n/10 10[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []|$\OT1/cmr/m/n/10 100$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/ptm/m/n/10 nodes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/cmr/m/n/10 10[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 []|$\OT1/cmr/m/n/10 100$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/ptm/m/n/10 nodes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 \OT1/cmr/m/n/10 10[]$
  []
 
-<figs/churnVsTime.png, id=201, 586.8324pt x 442.2924pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/churnVsTime.png, id=211, 586.8324pt x 442.2924pt>
 File: figs/churnVsTime.png Graphic file (type png)
 <use figs/churnVsTime.png>
-Package pdftex.def Info: figs/churnVsTime.png  used on input line 460.
+Package pdftex.def Info: figs/churnVsTime.png  used on input line 461.
 (pdftex.def)             Requested size: 361.19843pt x 272.24104pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/churnVsWork.png, id=203, 578.16pt x 431.4519pt>
+<figs/churnVsWork.png, id=213, 578.16pt x 431.4519pt>
 File: figs/churnVsWork.png Graphic file (type png)
 <use figs/churnVsWork.png>
-Package pdftex.def Info: figs/churnVsWork.png  used on input line 481.
+Package pdftex.def Info: figs/churnVsWork.png  used on input line 482.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
 [7]
-<figs/ChurnStableHist0.png, id=225, 578.16pt x 431.4519pt>
+<figs/ChurnStableHist0.png, id=231, 578.16pt x 431.4519pt>
 File: figs/ChurnStableHist0.png Graphic file (type png)
 <use figs/ChurnStableHist0.png>
-Package pdftex.def Info: figs/ChurnStableHist0.png  used on input line 502.
+Package pdftex.def Info: figs/ChurnStableHist0.png  used on input line 503.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/ChurnStableHist5.png, id=228, 578.16pt x 431.4519pt>
+<figs/ChurnStableHist5.png, id=234, 578.16pt x 431.4519pt>
 File: figs/ChurnStableHist5.png Graphic file (type png)
 <use figs/ChurnStableHist5.png>
-Package pdftex.def Info: figs/ChurnStableHist5.png  used on input line 511.
+Package pdftex.def Info: figs/ChurnStableHist5.png  used on input line 512.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/ChurnStableHist35.png, id=229, 578.16pt x 431.4519pt>
+<figs/ChurnStableHist35.png, id=235, 578.16pt x 431.4519pt>
 File: figs/ChurnStableHist35.png Graphic file (type png)
 <use figs/ChurnStableHist35.png>
-Package pdftex.def Info: figs/ChurnStableHist35.png  used on input line 521.
+Package pdftex.def Info: figs/ChurnStableHist35.png  used on input line 522.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/randomStableHist5.png, id=235, 578.16pt x 431.4519pt>
+
+Underfull \vbox (badness 4621) has occurred while \output is active []
+
+<figs/randomStableHist5.png, id=241, 578.16pt x 431.4519pt>
 File: figs/randomStableHist5.png Graphic file (type png)
 <use figs/randomStableHist5.png>
-Package pdftex.def Info: figs/randomStableHist5.png  used on input line 544.
-(pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/randomStableHist35.png, id=236, 578.16pt x 431.4519pt>
-File: figs/randomStableHist35.png Graphic file (type png)
-<use figs/randomStableHist35.png>
-Package pdftex.def Info: figs/randomStableHist35.png  used on input line 552.
+Package pdftex.def Info: figs/randomStableHist5.png  used on input line 545.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
  [8 <./figs/churnVsTime.png>] [9 <./figs/churnVsWork.png> <./figs/ChurnStableHi
-st0.png>] [10 <./figs/ChurnStableHist5.png> <./figs/ChurnStableHist35.png>]
-[11 <./figs/randomStableHist5.png> <./figs/randomStableHist35.png>]
-<figs/churnInjectionHist35.png, id=267, 578.16pt x 431.4519pt>
+st0.png>]
+[10 <./figs/ChurnStableHist5.png> <./figs/ChurnStableHist35.png>]
+<figs/randomStableHist35.png, id=265, 578.16pt x 431.4519pt>
+File: figs/randomStableHist35.png Graphic file (type png)
+<use figs/randomStableHist35.png>
+Package pdftex.def Info: figs/randomStableHist35.png  used on input line 553.
+(pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
+<figs/churnInjectionHist35.png, id=270, 578.16pt x 431.4519pt>
 File: figs/churnInjectionHist35.png Graphic file (type png)
 <use figs/churnInjectionHist35.png>
-Package pdftex.def Info: figs/churnInjectionHist35.png  used on input line 568.
+Package pdftex.def Info: figs/churnInjectionHist35.png  used on input line 569.
 
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/randomStableHistHetero35.png, id=269, 578.16pt x 431.4519pt>
+<figs/randomStableHistHetero35.png, id=272, 578.16pt x 431.4519pt>
 File: figs/randomStableHistHetero35.png Graphic file (type png)
 <use figs/randomStableHistHetero35.png>
 Package pdftex.def Info: figs/randomStableHistHetero35.png  used on input line 
-589.
+590.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--601
+Underfull \hbox (badness 10000) in paragraph at lines 599--602
  \OT1/ptm/m/it/11 1) The Ef-fects of Other Vari-ables: [][][] \OT1/ptm/m/n/11 T
 he
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 598--601
+Underfull \hbox (badness 1424) in paragraph at lines 599--602
 \OT1/ptm/m/n/11 net-works but no ef-fect in het-ero-ge-neous net-works.
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 598--601
+Underfull \hbox (badness 3612) in paragraph at lines 599--602
 \OT1/ptm/m/n/11 In 1000 node/100,000 task and 100 node/10,000
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 602--605
+Underfull \hbox (badness 1902) in paragraph at lines 603--606
 \OT1/ptm/m/n/11 net-works. This sug-gests the ef-fect of a par-tic-u-lar
  []
 
-[12] [13 <./figs/churnInjectionHist35.png> <./figs/randomStableHistHetero35.png
->]
-<figs/neighborsStableHist5.png, id=291, 578.16pt x 431.4519pt>
+[11] [12 <./figs/randomStableHist5.png> <./figs/randomStableHist35.png>]
+[13 <./figs/churnInjectionHist35.png> <./figs/randomStableHistHetero35.png>]
+<figs/neighborsStableHist5.png, id=300, 578.16pt x 431.4519pt>
 File: figs/neighborsStableHist5.png Graphic file (type png)
 <use figs/neighborsStableHist5.png>
-Package pdftex.def Info: figs/neighborsStableHist5.png  used on input line 646.
+Package pdftex.def Info: figs/neighborsStableHist5.png  used on input line 647.
 
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/neighborsStableHist35.png, id=292, 578.16pt x 431.4519pt>
+<figs/neighborsStableHist35.png, id=301, 578.16pt x 431.4519pt>
 File: figs/neighborsStableHist35.png Graphic file (type png)
 <use figs/neighborsStableHist35.png>
-Package pdftex.def Info: figs/neighborsStableHist35.png  used on input line 654
+Package pdftex.def Info: figs/neighborsStableHist35.png  used on input line 655
 .
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/neighborsStableSmartHist5.png, id=295, 578.16pt x 431.4519pt>
+<figs/neighborsStableSmartHist5.png, id=304, 578.16pt x 431.4519pt>
 File: figs/neighborsStableSmartHist5.png Graphic file (type png)
 <use figs/neighborsStableSmartHist5.png>
 Package pdftex.def Info: figs/neighborsStableSmartHist5.png  used on input line
- 669.
+ 670.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/neighborsStableSmartHist35.png, id=298, 578.16pt x 431.4519pt>
+<figs/neighborsStableSmartHist35.png, id=307, 578.16pt x 431.4519pt>
 File: figs/neighborsStableSmartHist35.png Graphic file (type png)
 <use figs/neighborsStableSmartHist35.png>
 Package pdftex.def Info: figs/neighborsStableSmartHist35.png  used on input lin
-e 677.
+e 678.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/inviteStableHist5.png, id=303, 578.16pt x 431.4519pt>
+<figs/inviteStableHist5.png, id=312, 578.16pt x 431.4519pt>
 File: figs/inviteStableHist5.png Graphic file (type png)
 <use figs/inviteStableHist5.png>
-Package pdftex.def Info: figs/inviteStableHist5.png  used on input line 709.
+Package pdftex.def Info: figs/inviteStableHist5.png  used on input line 710.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/inviteStableHist35.png, id=304, 578.16pt x 431.4519pt>
+<figs/inviteStableHist35.png, id=313, 578.16pt x 431.4519pt>
 File: figs/inviteStableHist35.png Graphic file (type png)
 <use figs/inviteStableHist35.png>
-Package pdftex.def Info: figs/inviteStableHist35.png  used on input line 716.
+Package pdftex.def Info: figs/inviteStableHist35.png  used on input line 717.
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/inviteNeighborsHist5.png, id=305, 578.16pt x 431.4519pt>
+<figs/inviteNeighborsHist5.png, id=314, 578.16pt x 431.4519pt>
 File: figs/inviteNeighborsHist5.png Graphic file (type png)
 <use figs/inviteNeighborsHist5.png>
-Package pdftex.def Info: figs/inviteNeighborsHist5.png  used on input line 725.
+Package pdftex.def Info: figs/inviteNeighborsHist5.png  used on input line 726.
 
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
-<figs/inviteNeighborsHist35.png, id=306, 578.16pt x 431.4519pt>
+<figs/inviteNeighborsHist35.png, id=315, 578.16pt x 431.4519pt>
 File: figs/inviteNeighborsHist35.png Graphic file (type png)
 <use figs/inviteNeighborsHist35.png>
-Package pdftex.def Info: figs/inviteNeighborsHist35.png  used on input line 733
+Package pdftex.def Info: figs/inviteNeighborsHist35.png  used on input line 734
 .
 (pdftex.def)             Requested size: 361.19843pt x 269.54486pt.
- [14] [15 <./figs/neighborsStableHist5.png> <./figs/neighborsStableHist35.png>]
- [16 <./figs/neighborsStableSmartHist5.png> <./figs/neighborsStableSmartHist35.
-png>] [17 <./figs/inviteStableHist5.png> <./figs/inviteStableHist35.png>]
+
+[14] [15 <./figs/neighborsStableHist5.png> <./figs/neighborsStableHist35.png>]
+[16 <./figs/neighborsStableSmartHist5.png> <./figs/neighborsStableSmartHist35.p
+ng>] [17 <./figs/inviteStableHist5.png> <./figs/inviteStableHist35.png>]
 [18 <./figs/inviteNeighborsHist5.png> <./figs/inviteNeighborsHist35.png>]
 
-LaTeX Warning: Reference `chapter:sybil' on page 19 undefined on input line 770
+LaTeX Warning: Reference `chapter:sybil' on page 19 undefined on input line 771
 .
 
 (./sybil_autonomous.bbl
-Underfull \hbox (badness 3128) in paragraph at lines 45--48
+Underfull \hbox (badness 3128) in paragraph at lines 50--53
 []\OT1/ptm/m/n/9 Andrew Rosen.  Au-tonomous load-balancing raw data.
  []
 
@@ -778,31 +786,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 775.
-[19
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 775.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 776.
+[19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 776.
  (./sybil_autonomous.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 775.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 775.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 776.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 776.
 Package rerunfilecheck Info: File `sybil_autonomous.out' has not changed.
-(rerunfilecheck)             Checksum: 61C7D6967EBF93A6515CECF5F219D710;1229.
+(rerunfilecheck)             Checksum: EF6C5BD87178A9AD4F7B486D3CC59066;1277.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 775.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 776.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 418 ({)
+### simple group (level 1) entered at line 419 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9340 strings out of 492615
- 144152 string characters out of 6131390
- 258051 words of memory out of 5000000
- 13002 multiletter control sequences out of 15000+600000
+ 9345 strings out of 492615
+ 144212 string characters out of 6131390
+ 257082 words of memory out of 5000000
+ 13004 multiletter control sequences out of 15000+600000
  48047 words of font info for 105 fonts, out of 8000000 for 9000
  1150 hyphenation exceptions out of 8191
  42i,11n,43p,460b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -822,10 +828,10 @@ live/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on sybil_autonomous.pdf (19 pages, 695572 bytes).
+Output written on sybil_autonomous.pdf (19 pages, 697056 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
- 347 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 357 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

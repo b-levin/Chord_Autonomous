@@ -24,6 +24,11 @@ John~R Douceur.
 Donald Eastlake and Paul Jones.
 \newblock Us secure hash algorithm 1 (sha1), 2001.
 
+\bibitem{liparameter}
+Mu~Li, Li~Zhou, Zichao Yang, Aaron Li, Fei Xia, David~G Andersen, and Alexander
+  Smola.
+\newblock Parameter server for distributed machine learning.
+
 \bibitem{mainline}
 Andrew Loewenstern and Arvid Norberg.
 \newblock {BEP} 5: {DHT} {P}rotocol.
